@@ -5,11 +5,11 @@ This repository contains MATLAB/Simulink simulations for analyzing voltage stabi
 
 ## 📖 System Description
 The simulated power system consists of:
-- **Three-phase source:** 240 V (phase-phase), 50 Hz
+- **Three-phase source:** 380 V (phase-phase), 50 Hz
 - **Transformer T1:** 30 kVA, 240/480 V, Xeq=0.10 pu
 - **Transmission line:** 2 Ω reactance
 - **Transformer T2:** 20 kVA, 460/115 V, Xeq=0.10 pu
-- **Load:** Variable impedance connected at 115 V level
+- **Load:** Variable impedance
 
 ![System Diagram](images/plant.png)
 
@@ -45,9 +45,12 @@ This project demonstrates:
 ## 🚀 How to Use
 
 ### For Part A (Inductive Load):
+```bat
 cd A
 matlab_script_A
-
+```
 ### For Part B (Capacitive Load):
+```bat
 cd B
 matlab_script_B
+```
